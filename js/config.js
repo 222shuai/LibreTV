@@ -170,14 +170,14 @@ const CUSTOM_PLAYER_URL = 'player.html'; // 使用相对路径引用本地player
 
 // 增加视频播放相关配置
 const PLAYER_CONFIG = {
-    autoplay: true，
-    allowFullscreen: true，
+    autoplay: true,
+    allowFullscreen: true,
     width: '100%',
     height: '600',
     timeout: 15000，  // 播放器加载超时时间
-    filterAds: true，  // 是否启用广告过滤
-    autoPlayNext: true，  // 默认启用自动连播功能
-    adFilteringEnabled: true， // 默认开启分片广告过滤
+    filterAds: true,  // 是否启用广告过滤
+    autoPlayNext: true,  // 默认启用自动连播功能
+    adFilteringEnabled: true, // 默认开启分片广告过滤
     adFilteringStorage: 'adFilteringEnabled' // 存储广告过滤设置的键名
 };
 
@@ -204,8 +204,8 @@ const CUSTOM_API_CONFIG = {
     maxSources: 5,            // 最大允许的自定义源数量
     testTimeout: 5000,        // 测试超时时间(毫秒)
     namePrefix: 'Custom-'，    // 自定义源名称前缀
-    validateUrl: true，        // 验证URL格式
-    cacheResults: true，       // 缓存测试结果
+    validateUrl: true,        // 验证URL格式
+    cacheResults: true,       // 缓存测试结果
     cacheExpiry: 5184000000，  // 缓存过期时间(2个月)
     adultPropName: 'isAdult' // 用于标记成人内容的属性名
 };
